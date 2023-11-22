@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa generująca wyrazy ciągu Tribonacciego. Rozszerza klasę
+ * {@link FibonacciGenerator}.
+ *
+ * @author paweljabloniec12
+ * @version 1.0.0
+ */
 public class TribonacciGenerator extends FibonacciGenerator {
 
+    /**
+     * Konstruktor inicjalizujący początkowe wartości ciągu Tribonacciego.
+     */
     public TribonacciGenerator() {
         f_3 = new BigDecimal(0);
     }

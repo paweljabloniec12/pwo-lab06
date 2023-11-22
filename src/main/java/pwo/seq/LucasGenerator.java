@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa generująca wyrazy ciągu Lucasa. Rozszerza klasę
+ * {@link FibonacciGenerator}.
+ *
+ * @author paweljabloniec12
+ * @version 1.0.0
+ */
 public class LucasGenerator extends FibonacciGenerator {
 
+    /**
+     * Konstruktor inicjalizujący początkowe wartości ciągu Lucasa.
+     */
     public LucasGenerator() {
         current = new BigDecimal(2);
         f_2 = new BigDecimal(2);

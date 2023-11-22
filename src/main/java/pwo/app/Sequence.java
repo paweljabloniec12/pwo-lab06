@@ -1,14 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pwo.app;
 
+/**
+ * Klasa uruchamiająca aplikację generującą ciągi liczbowe. Akceptuje argumenty
+ * z linii poleceń i wywołuje odpowiednią aplikację w zależności od ich liczby.
+ *
+ * @author paweljabloniec12
+ * @version 1.0.0
+ */
 public class Sequence {
 
+    /**
+     * Metoda main aplikacji.
+     *
+     * @param args Argumenty z linii poleceń.
+     */
     public static void main(String[] args) {
 
-        (new SeqToFileApp()).run(args);
         switch (args.length) {
             case 3:
                 (new SeqToOutApp()).run(args);

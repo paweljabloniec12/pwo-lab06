@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa generująca wyrazy ciągu Fibonacciego. Rozszerza klasę abstrakcyjną
+ * {@link Generator}.
+ *
+ * @author paweljabloniec12
+ * @version 1.0.0
+ */
 public class FibonacciGenerator extends Generator {
 
+    /**
+     * Konstruktor inicjalizujący początkowe wartości ciągu Fibonacciego.
+     */
     public FibonacciGenerator() {
         current = new BigDecimal(0);
         f_1 = new BigDecimal(1);
